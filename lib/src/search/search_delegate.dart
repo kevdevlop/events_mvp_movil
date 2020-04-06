@@ -61,6 +61,7 @@ class DataSearch extends SearchDelegate{
                 ),
                 title: Text(event.title),
                 subtitle: Text(event.owner),
+                onTap: () {},
               )
             )
           });

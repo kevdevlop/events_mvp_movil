@@ -54,7 +54,7 @@ class CardEventListWidget extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
                 FlatButton(
-                  child: Text("Ver más", style: TextStyle(color: Colors.blueAccent),),
+                  child: Text("Ver más", style: TextStyle(color: Colors.blueAccent,fontSize: 15),),
                   onPressed: () {
                     Navigator.pushNamed(context, 'event', arguments: event);
                   },
